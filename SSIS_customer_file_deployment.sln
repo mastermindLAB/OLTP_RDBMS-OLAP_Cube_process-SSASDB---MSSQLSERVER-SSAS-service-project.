@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSIS_customer_file_deployment", "SSIS_customer_file_deployment\SSIS_customer_file_deployment.dtproj", "{96382B5B-4D05-4774-B40A-6A99864C4CEE}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SSAS_Customer_data_analysis", "SSAS_Customer_data_analysis\SSAS_Customer_data_analysis.dwproj", "{AFAC66BC-C4AB-471E-80B1-F7389EFA7A0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|x86 = Development|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96382B5B-4D05-4774-B40A-6A99864C4CEE}.Development|x86.ActiveCfg = Development
+		{96382B5B-4D05-4774-B40A-6A99864C4CEE}.Development|x86.Build.0 = Development
+		{AFAC66BC-C4AB-471E-80B1-F7389EFA7A0C}.Development|x86.ActiveCfg = Development
+		{AFAC66BC-C4AB-471E-80B1-F7389EFA7A0C}.Development|x86.Build.0 = Development
+		{AFAC66BC-C4AB-471E-80B1-F7389EFA7A0C}.Development|x86.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF26C828-6B0D-4467-8B37-BADDAC35F5A9}
+	EndGlobalSection
+EndGlobal
